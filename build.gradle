@@ -33,6 +33,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 mainClassName = 'SampleProject.Library'
+test{
+    testLogging{
+    exceptionFormat = 'full'
+    events = {"passed", "failed", "skipped"}
+    }
+    finalizedBY jacocoTestReport
+    }
 jacocoTestReport{
 group="build"
 reports{
@@ -41,3 +48,4 @@ csv.enabled false
 html.destination file("${buildDir}/jacocoHtml")
 }
 }
+
