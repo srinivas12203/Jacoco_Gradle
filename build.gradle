@@ -32,11 +32,11 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
-mainClassName='SampleProject.Library'
+mainClassName = 'SampleProject.Library'
 jacocoTestReport{
 group="build"
 reports{
-xml.enable false
+xml.enabled false
 csv.enabled false
 html.destination file("${buildDir}/jacocoHtml")
 }
