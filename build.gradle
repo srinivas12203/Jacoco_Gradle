@@ -32,7 +32,7 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
-mainClassName='JacocoGradle.Library'
+mainClassName='SampleProject.Library'
 jacocoTestReport{
 group="build"
 reports{
