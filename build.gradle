@@ -38,7 +38,7 @@ test{
     exceptionFormat = 'full'
     events = ["passed", "failed", "skipped"]
     }
-    finalizedBY jacocoTestReport
+    finalizedBy jacocoTestReport
     }
 jacocoTestReport{
 group="build"
