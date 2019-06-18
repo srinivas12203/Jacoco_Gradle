@@ -36,7 +36,7 @@ mainClassName = 'SampleProject.Library'
 test{
     testLogging{
     exceptionFormat = 'full'
-    events = {"passed", "failed", "skipped"}
+    events = ["passed", "failed", "skipped"]
     }
     finalizedBY jacocoTestReport
     }
