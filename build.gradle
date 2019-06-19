@@ -31,9 +31,11 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
 }
 mainClassName = 'SampleProject.Library'
 test{
+   
     testLogging{
     exceptionFormat = 'full'
     events = ["passed", "failed", "skipped"]
